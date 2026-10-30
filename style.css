@@ -21,3 +21,17 @@ p {
 li {
     margin-bottom: 10px;
 }
+@media (max-width: 768px) {
+    .btn-container {
+        flex-direction: column;
+        gap: 15px
+    }
+    .image-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .my-image {
+        width: 90%;
+        height: auto;
+    }
+}
