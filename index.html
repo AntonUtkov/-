@@ -2,31 +2,19 @@
 <html lang="ru">
 <head>
     <title>Первая HTML страница</title>
-    <style>
-    .btn-container {
-        display: flex;
-        justify-content: center;
-        gap: 160px;
-        margin-top: 30px;
-    }
-    .my-btn {
-        background-color:rgba(43, 150, 164);
-        padding:10px 30px;
-        cursor: pointer;
-        border-radius:16px;
-        border-style:none;
-    }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-color: #dbdfee;">
+<body>
     <h1 style="color: rgb(0, 106, 255); text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Привет, ты попал на мой сайт</h1>
     <ul stule="margin-left: 30px">
         <li>Это моя первая HTML страница - 29.10.26</li>
         <li>В этом проекте я буду учиться писать код на HTML</li>
-    </ul>        
+        <li>30.10 - уже научился и примерно понял как добавлять кнопки и картинки</li>
+        <li>Понял, как работает div и как писать строки, и как подключать css</li>
+    </ul>    
     <p>Допустим, в будущем я создам сайт, и там будет такая кнопка скачать:</p>
     <div class="btn-container">
-        <a href="dop1.html" target="blank">
+        <a href="virus.html" target="blank">
             <button class="my-btn">СКАЧАТЬ ВИРУС</button>
         </a>
     </div>
@@ -40,7 +28,13 @@
         </a>
          <a href="dop3.html" target="blank">
             <button class="my-btn">ПОЛУЧИТЬ 100КК</button>
-        </a>
+        </a>       
     </div>
+<p>Попробую вставить картинки ниже:</p>     
+     <div style="display: flex; gap: 100px; margin-top: 30px; padding: 0 40px;">
+        <img src="bike.jpg" width="500" class="my-image">
+        <img src="bike2.jpg" width="267" class="my-image">
+       <img src="bike.3.jpg" width="470" class="my-image">
+    </div>    
 </body>
 </html>

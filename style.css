@@ -1,0 +1,23 @@
+body {
+    background: linear-gradient(135deg, #bde1e6 0%, #d6f1d7 100%)
+}
+.btn-container {
+        display:flex;
+        justify-content: center;
+        gap: 70px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+    .my-btn {
+        background-color:rgb(110, 150, 224);
+        padding:10px 30px;
+        cursor: pointer;
+        border-radius:16px;
+        border-style:ridge;
+    }
+p {
+    text-align: center;
+}   
+li {
+    margin-bottom: 10px;
+}
